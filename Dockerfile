@@ -12,4 +12,4 @@ ENV PATH $PATH:/usr/lib/jvm/java-8-openjdk-amd64/bin
 
 EXPOSE 8081
 
-ENTRYPOINT ["nohup java","-jar","achistar-portal-0.0.1-SNAPSHOT.war"]
+ENTRYPOINT ["java","-jar","achistar-portal-0.0.1-SNAPSHOT.war"]
